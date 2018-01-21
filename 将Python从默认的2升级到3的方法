@@ -1,0 +1,11 @@
+
+第一步，通过终端下载Python3
+1 sudo apt-get install python3
+
+第二步，cd到根目录下，移除默认的Python文件
+2 sudo rm /usr/bin/python
+
+第三步，将对应的新的Python3链接到之前的位置，即可。
+3 sudo ln -s /usr/bin/python3.5 /usr/bin/python
+
+查看当前版本，成功！
