@@ -1,4 +1,4 @@
-d = {'haixun':90,'tuanjing':80,'lost':99}
+d = {'hx':90,'uj':80,'lt':99}
 n = input('please input yourself:')
 if n in d:
     print('yourself:',n,'is:',d[n])
@@ -7,4 +7,3 @@ else:
 
 
 
-#sad
